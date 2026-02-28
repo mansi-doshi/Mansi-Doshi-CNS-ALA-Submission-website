@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Outer Border */
+.outer-box {
+    width: 750px;
+    border: 2px solid black;
+}
+
+/* Common Row */
+.row-flex {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+/* Logo Box */
+.logo-box {
+    width: 300px;
+    height: 220px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* University Box */
+.university-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Simple Full Row (No Split Box) */
+.simple-row {
+    padding: 12px;
+    border-bottom: 1px solid black;
+}
+
+/* Label + Value Boxes */
+.label-box {
+    width: 250px;
+    border-right: 1px solid black;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.value-box {
+    flex: 1;
+    padding: 12px;
+}
+
+/* ALA Title Boxes */
+.ala-title {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid black;
+    font-weight: bold;
+}
+
+.ala-title:last-child {
+    border-right: none;
+}
+
+/* ALA Link Boxes */
+.ala-link {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+
+.ala-link:last-child {
+    border-right: none;
+}
+
+.ala-link a {
+    text-decoration: none;
+    color: blue;
+}
